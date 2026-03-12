@@ -1,5 +1,10 @@
 # 🌍 Multilingual Speech Translator AI
 
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
+![SpeechRecognition](https://img.shields.io/badge/SpeechRecognition-Audio-green)
+![Deep Translator](https://img.shields.io/badge/DeepTranslator-LanguageTranslation-orange)
+![Flask](https://img.shields.io/badge/Flask-WebApp-black?logo=flask)
+
 An AI-powered application that converts **speech from any language into English text** using speech recognition and machine translation.
 
 ---
@@ -43,8 +48,8 @@ Language-converter
 Clone repository:
 
 ```bash
-git clone https://github.com/yourusername/multilingual-translator-ai.git
-cd multilingual-translator-ai
+git clone https://github.com/Chethumalli/Language-converter-AI.git
+cd Language-converter-AI
 ```
 
 Install dependencies:
@@ -128,4 +133,5 @@ How are you
 **Chethan C Malli**
 
 AI & ML Enthusiast | Developer
+
 
