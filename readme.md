@@ -25,12 +25,15 @@ An AI-powered application that converts **speech from any language into English 
 ## 📂 Project Structure
 
 ```
-multilingual-translator-ai
+Language-converter
 │
-├── translator.py
 ├── app.py
+├── translator.py
 ├── requirements.txt
-└── README.md
+│
+└── templates
+      │
+      └── index.html
 ```
 
 ---
@@ -125,3 +128,4 @@ How are you
 **Chethan C Malli**
 
 AI & ML Enthusiast | Developer
+
