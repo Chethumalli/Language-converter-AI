@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Multilingual Translator</title>
+    <style>
+        body{
+            font-family: Arial;
+            text-align:center;
+            background:#0f172a;
+            color:white;
+            padding-top:100px;
+        }
+
+        button{
+            padding:15px 30px;
+            font-size:18px;
+            border:none;
+            border-radius:10px;
+            background:#22c55e;
+            color:white;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#16a34a;
+        }
+
+        .box{
+            margin-top:30px;
+            font-size:20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>🌍 Multilingual Speech Translator</h1>
+
+<form method="POST">
+    <button type="submit">🎤 Speak</button>
+</form>
+
+<div class="box">
+    <p><b>Detected Speech:</b> {{ original }}</p>
+    <p><b>English Translation:</b> {{ translated }}</p>
+</div>
+
+</body>
+</html>
